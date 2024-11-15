@@ -1,6 +1,6 @@
-# VideoDownloader
+# QuickMediaDL
 
-**VideoDownloader** is a Python library designed to simplify the process of downloading videos and audio files from various online sources, such as YouTube. It leverages `yt-dlp` to offer a customizable experience with options for setting video quality, downloading subtitles, renaming files, and more.
+**QuickMediaDL** is a Python library designed to simplify the process of downloading videos and audio files from various online sources, such as YouTube. It leverages `yt-dlp` to offer a customizable experience with options for setting video quality, downloading subtitles, renaming files, and more.
 
 ## Features
 
@@ -17,7 +17,7 @@
 To install the package and its dependencies, simply use pip:
 
 ```bash
-pip install VideoDownloader
+pip install QuickMediaDL
 ```
 ## requirements:
 - yt-dlp: Core library for downloading videos and audio.
@@ -90,7 +90,7 @@ The library uses `tqdm` to display a progress bar during downloads, giving you r
 Here’s an example of downloading a video in `720p`, saving it to a custom directory with subtitles in English and Persian, and using a custom filename:
 
 ```python
-from VideoDownloader import VideoDownloader
+from QuickMediaDL import VideoDownloader
 
 # Initialize downloader with URL
 url = "https://www.youtube.com/watch?v=example"
