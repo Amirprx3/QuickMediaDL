@@ -8,7 +8,7 @@ setup(
     long_description_content_type="text/markdown",
     author="Amirhossein bahrami",
     author_email="amirbaahrami@gmail.com",
-    url="https://github.com/Amirprx3/videodownloader",
+    url="https://github.com/Amirprx3/QuickMediaDL",
     license="MIT",
     keywords=["python", "Downloader", "ViedoDownloader", "YoutubeDownloader"],
     packages=find_packages(),
